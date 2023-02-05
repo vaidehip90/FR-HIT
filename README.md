@@ -41,7 +41,7 @@ Example:
 sudo ./fr-hit -a SRR072233.fasta -d Acinetobacter_baumannii_genomic_RefSeq.fasta -c 75 -m 40 -w 120 -r 0 -o
 Acinetobacter_baumannii.sop
 
-In this analysis, I used SRR07233.fasta dataset to reference genome; Acinetobacter_baumannii_genomic_RefSeq.fasta.The setting I used for FR-HIT is -d = reference genomes in fasta format
+In the metagenomic analysis, I used SRR07233.fasta dataset to reference genome; Acinetobacter_baumannii_genomic_RefSeq.fasta.The setting I used for FR-HIT is -d = reference genomes in fasta format
 which I have. -o for output file, -a = input file I fasta format. -c =90 I kept percent identity threshold default at
 75, -w= 30 which is minimal read length, and -r = 0 which is 0: all( report all alignment). The output file format
 is sop.
